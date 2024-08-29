@@ -1,0 +1,4 @@
+
+    Crear una tienda de buzos
+    - Primero vamos a diseñar nuestra pagina index en figma
+    - Buscamos un logo

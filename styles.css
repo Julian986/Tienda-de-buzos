@@ -1,0 +1,29 @@
+body{
+    background-color: #F0F0F0;
+}
+
+ul{
+    width: 30%;
+    margin-right: 15%;
+}
+.siguiente{
+    background-image: url('data:image/svg+xml,%3Csvg xmlns%3D"http://www.w3.org/2000/svg" fill%3D"%23007bff" viewBox%3D"0 0 16 16"%3E%3Cpath d%3D"M11.5 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11a.5.5 0 0 1 .5.5z"%3E%3C/path%3E%3C/svg%3E');
+   
+}
+.anterior {
+    background-image: url('data:image/svg+xml,%3Csvg xmlns%3D"http://www.w3.org/2000/svg" fill%3D"%23007bff" viewBox%3D"0 0 16 16"%3E%3Cpath d%3D"M4.5 8a.5.5 0 0 0 .5.5h5.293l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L10.293 7.5H5a.5.5 0 0 0-.5.5z"%3E%3C/path%3E%3C/svg%3E');
+}
+
+img{
+    height: 400px;
+    width: 400px;
+    margin-top: 65px;
+}
+
+.negro{
+    margin-right: 130px;
+}
+
+h5{
+    color: blue;
+}

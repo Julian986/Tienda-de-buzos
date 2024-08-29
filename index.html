@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tienda de buzos</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+
+        <!--MENU DE NAVEGACION-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+                <a href="" class="navbar-brand">Dragon</a>
+                  <!-- Boton para el menu movil -->
+                  <button 
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#menu"
+                  aria-controls="menu"
+                  aria-expanded="false"
+                  aria-label="Mostrar / Ocultar Menu"
+              >
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse ola d-flex justify-content-center" id="menu">
+                <ul class="navbar-nav mb-2 mb-lg-0 d-flex justify-content-around"> 
+                    <li class="nav-item"><a href="" class="nav-link itemss">Inicio</a></li>
+                    <li class="nav-item"><a href="" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="" class="nav-link">Shop</a></li>
+                    <li class="nav-item"><a href="" class="nav-link">Contacto</a></li>
+                </ul>
+                
+              </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <div class="carousel slide" id="mi-carousel" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="d-flex justify-content-center">
+                            <img src="buzo-blanco.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="carousel-item" data-bs-interval="5000">
+                       <div class="d-flex justify-content-center">
+                        <div class="carrousel-caption">
+                            <h5>Buzo blanco nike</h5>
+                            <p>500 Usd</p>
+                        </div>
+                        <img class="negro" src="buzo-negro.png" alt="">
+                       </div>
+                    </div>
+                </div>
+
+                <!-- Controles  -->
+                 <button class="carousel-control-prev"
+                 data-bs-target="#mi-carousel"
+                 data-bs-slide="prev">
+                <span class="carousel-control-prev-icon siguiente" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+                 </button>
+
+                 <button class="carousel-control-next"
+                 data-bs-target="#mi-carousel"
+                 data-bs-slide="next">
+                <span class="carousel-control-next-icon anterior" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+                 </button>
+
+                <!-- Indicadores -->
+
+                <div class="carousel-indicators">
+                    <button 
+                        type="button"
+                        class="active bg-warning"
+                        data-bs-target="#mi-carousel"
+                        data-bs-slide-to="0"
+                        aria-label="Slide 1"
+                    ></button>
+                    <button 
+                        type="button"
+                        class="bg-warning"
+                        data-bs-target="#mi-carousel"
+                        data-bs-slide-to="1"
+                        aria-label="Slide 2"
+                    ></button>
+                  <!--  <button 
+                        type="button"
+                        class=""
+                        data-bs-target="#mi-carousel"
+                        data-bs-slide-to="2"
+                        aria-label="Slide 3"
+                    ></button> -->
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+   </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
