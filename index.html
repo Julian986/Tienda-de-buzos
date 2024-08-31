@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+        </style>
     <link rel="stylesheet" href="styles.css">
     <title>Tienda de buzos</title>
 </head>
@@ -12,7 +15,7 @@
         <div class="row">
 
         <!--MENU DE NAVEGACION-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top menuNavegacion">
             <div class="container-fluid">
                 <a href="" class="navbar-brand">Dragon</a>
                   <!-- Boton para el menu movil -->
@@ -30,12 +33,21 @@
 
               <div class="collapse navbar-collapse ola d-flex justify-content-center" id="menu">
                 <ul class="navbar-nav mb-2 mb-lg-0 d-flex justify-content-around"> 
-                    <li class="nav-item"><a href="" class="nav-link itemss">Inicio</a></li>
-                    <li class="nav-item"><a href="" class="nav-link">About</a></li>
-                    <li class="nav-item"><a href="" class="nav-link">Shop</a></li>
-                    <li class="nav-item"><a href="" class="nav-link">Contacto</a></li>
+                    <li class="nav-item"><a href="" class="nav-link itemss" style="color: white;">Inicio</a></li>
+                    <li class="nav-item"><a href="" class="nav-link itemss" style="color: white;">About</a></li>
+                    <li class="nav-item"><a href="" class="nav-link itemss" style="color: white;">Shop</a></li>
+                    <li class="nav-item"><a href="" class="nav-link itemss" style="color: white;">Contacto</a></li>
                 </ul>
-                
+                      <!-- Formulario de busqueda -->
+                      <form action="" class="d-flex h-50 w-25 justify-content-lg-start">
+                        <input 
+                            type="text"
+                            class="form-control me-2 flex-fill"
+                            aria-label="Buscar"
+                            placeholder="Buscar"
+                        >
+                    </form>        
+                    <img class="icono" src="icons/lupa.svg" alt="">
               </div>
             </div>
         </nav>
@@ -43,23 +55,48 @@
 
     <div class="row">
         <div class="col">
-            <div class="carousel slide" id="mi-carousel" data-bs-ride="carousel">
+            <div class="carousel slide mt-5" id="mi-carousel" data-bs-ride="carousel">
                 <div class="carousel-inner">
+
                     <div class="carousel-item active">
-                        <div class="d-flex justify-content-center">
-                            <img src="buzo-blanco.png" alt="">
+                        <div class="d-flex justify-content-center align-items-center me-5">
+                            <div class="carrousel-caption">
+                                <h5>Buzo blanco nike</h5>
+                                <p>$500 Usd</p>
+                             </div>
+                            <img src="img/buzo-blanco.png" alt="">
                         </div>
                     </div>
 
                     <div class="carousel-item" data-bs-interval="5000">
-                       <div class="d-flex justify-content-center">
-                        <div class="carrousel-caption">
-                            <h5>Buzo blanco nike</h5>
-                            <p>500 Usd</p>
-                        </div>
-                        <img class="negro" src="buzo-negro.png" alt="">
+                       <div class="d-flex justify-content-center align-items-center">
+                           <div class="carrousel-caption">
+                               <h5>Buzo negro nike</h5>
+                               <p>$500 Usd</p>
+                            </div>
+                            <img class="negro" src="img/buzo-negro.png" alt="">
                        </div>
                     </div>
+
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <div class="d-flex justify-content-center align-items-center">
+                         <div class="carrousel-caption">
+                             <h5>Buzo gris nike</h5>
+                             <p>$500 Usd</p>
+                         </div>
+                         <img class="negro" src="img/buzo-con-capucha.png" alt="">
+                        </div>
+                     </div>
+
+                     <div class="carousel-item" data-bs-interval="5000">
+                        <div class="d-flex justify-content-center align-items-center">
+                         <div class="carrousel-caption">
+                             <h5>Buzo rojo nike</h5>
+                             <p>$500 Usd</p>
+                         </div>
+                         <img class="negro" src="img/buzo-rojo.png" alt="">
+                        </div>
+                     </div>
                 </div>
 
                 <!-- Controles  -->
@@ -79,8 +116,9 @@
 
                 <!-- Indicadores -->
 
-                <div class="carousel-indicators">
-                    <button 
+                <div class="carousel-indicators mt-5">
+                    <div class="indicadores">
+                        <button 
                         type="button"
                         class="active bg-warning"
                         data-bs-target="#mi-carousel"
@@ -94,19 +132,168 @@
                         data-bs-slide-to="1"
                         aria-label="Slide 2"
                     ></button>
-                  <!--  <button 
+                    <button 
                         type="button"
-                        class=""
+                        class="bg-warning"
                         data-bs-target="#mi-carousel"
                         data-bs-slide-to="2"
                         aria-label="Slide 3"
-                    ></button> -->
+                    ></button>
+                    <button 
+                    type="button"
+                    class="bg-warning"
+                    data-bs-target="#mi-carousel"
+                    data-bs-slide-to="3"
+                    aria-label="Slide 4"
+                ></button>
+                    </div>
                 </div>
 
             </div>
         </div>
     </div>
 
+    <!-- BUZOS -->
+    <div class="row mt-3 mb-5">
+        <div class="col-3">
+            <div class="card tarjeta">
+                <img class="buzoRojo" src="img/buzo1.png" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Nike Sportswear Club Fleece</h5>
+                    <h6 class="card-subtitle mt-2 mb-3">$500 usd</h6>
+                    <img class="icono2" src="icons/carrito.svg" alt="">
+                    <a href="#" class="btn btn-outline-success">Añadir al carrito</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="card tarjeta">
+                <img class="buzoRojo" src="img/buzo2.png" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Nike Sportswear Club Fleece</h5>
+                    <h6 class="card-subtitle mt-2 mb-3">$500 usd</h6>
+                    <img class="icono2" src="icons/carrito.svg" alt="">
+                    <a href="#" class="btn btn-outline-success">Añadir al carrito</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="card tarjeta">
+                <img class="buzoRojo" src="img/buzo3.png" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Nike Sportswear Tech Fleece</h5>
+                    <h6 class="card-subtitle mt-2 mb-3">$500 usd</h6>
+                    <img class="icono2" src="icons/carrito.svg" alt="">
+                    <a href="#" class="btn btn-outline-success">Añadir al carrito</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="card tarjeta">
+                <img class="buzoRojo" src="img/buzo4.png" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Nike Sportswear Tech Fleece Windrunner</h5>
+                    <h6 class="card-subtitle mt-2 mb-3">$500 usd</h6>
+                    <img class="icono2" src="icons/carrito.svg" alt="">
+                    <a href="#" class="btn btn-outline-success flex-fill">Añadir al carrito</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-3 mb-5">
+        <div class="col-3">
+            <div class="card tarjeta">
+                <img class="buzoRojo" src="img/buzo5.png" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Nike Dry Graphic</h5>
+                    <h6 class="card-subtitle mt-2 mb-3">$500 usd</h6>
+                    <img class="icono2" src="icons/carrito.svg" alt="">
+                    <a href="#" class="btn btn-outline-success">Añadir al carrito</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="card tarjeta">
+                <img class="buzoRojo" src="img/buzo6.png" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Nike Club</h5>
+                    <h6 class="card-subtitle mt-2 mb-3">$500 usd</h6>
+                    <img class="icono2" src="icons/carrito.svg" alt="">
+                    <a href="#" class="btn btn-outline-success">Añadir al carrito</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="card tarjeta">
+                <img class="buzoRojo" src="img/buzo7.png" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Nike Club Fleece</h5>
+                    <h6 class="card-subtitle mt-2 mb-3">$500 usd</h6>
+                    <img class="icono2" src="icons/carrito.svg" alt="">
+                    <a href="#" class="btn btn-outline-success">Añadir al carrito</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="card tarjeta">
+                <img class="buzoRojo" src="img/buzo8.png" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Nike ACG Therma-FIT</h5>
+                    <h6 class="card-subtitle mt-2 mb-3">$500 usd</h6>
+                    <img class="icono2" src="icons/carrito.svg" alt="">
+                    <a href="#" class="btn btn-outline-success flex-fill">Añadir al carrito</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-3 mb-5">
+        <div class="col-3">
+            <div class="card tarjeta">
+                <img class="buzoRojo" src="img/buzo-blanco.png" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Buzo rojo</h5>
+                    <h6 class="card-subtitle mt-2 mb-3">$500 usd</h6>
+                    <img class="icono2" src="icons/carrito.svg" alt="">
+                    <a href="#" class="btn btn-outline-success">Añadir al carrito</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="card tarjeta">
+                <img class="buzoRojo" src="img/buzo-negro.png" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Buzo rojo</h5>
+                    <h6 class="card-subtitle mt-2 mb-3">$500 usd</h6>
+                    <img class="icono2" src="icons/carrito.svg" alt="">
+                    <a href="#" class="btn btn-outline-success">Añadir al carrito</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="card tarjeta">
+                <img class="buzoRojo" src="img/buzo-rojo.png" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Buzo rojo</h5>
+                    <h6 class="card-subtitle mt-2 mb-3">$500 usd</h6>
+                    <img class="icono2" src="icons/carrito.svg" alt="">
+                    <a href="#" class="btn btn-outline-success">Añadir al carrito</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="card tarjeta">
+                <img class="buzoRojo" src="img/buzo-con-capucha.png" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Buzo rojo</h5>
+                    <h6 class="card-subtitle mt-2 mb-3">$500 usd</h6>
+                    <img class="icono2" src="icons/carrito.svg" alt="">
+                    <a href="#" class="btn btn-outline-success flex-fill">Añadir al carrito</a>
+                </div>
+            </div>
+        </div>
+    </div>
    </div>
 
     <script src="js/bootstrap.bundle.min.js"></script>
