@@ -41,6 +41,14 @@ h5{
     font-weight: 500;
 }
 
+.card{
+    z-index: 5;
+}
+
+img{
+    z-index: 2;
+}
+
 p{
     color: rgb(117, 36, 209);
     font-family: "Lexend Deca", sans-serif;
