@@ -39,6 +39,7 @@ h5{
 
 .card a{
     font-weight: 500;
+    width: 100%;
 }
 
 .card{
@@ -81,9 +82,11 @@ p{
  .icono2{
     width: 20px;
     height: 20px;
-    position: relative;
+    /*position: relative;
     bottom: 31px;
-    left: 39px;
+    left: 39px;*/
+    margin-top: 0px;
+    margin-right: 9px;
  }
 
  .menuNavegacion{
@@ -91,8 +94,8 @@ p{
  }
 
  .buzoRojo{
-    position: relative;
-    right: 47px;
+    width: 100%;
+    margin: auto;
  }
 
 /*  BUZOS   */
@@ -108,4 +111,11 @@ p{
 
 .tarjeta a{
     width: 80%;
+}
+
+/* PAGINA DETAIL */
+
+.soloVerde{
+    width: 100%;
+    margin: auto;
 }
