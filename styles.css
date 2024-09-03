@@ -126,6 +126,18 @@ p{
     margin-bottom: 15px;
 } */
 
+/* MEDIA QUERIES */
+
+@media screen and (max-width:988px) {
+    .menuNavegacion{
+        height: auto;
+        padding: 20px;
+    }
+    body{
+        background-color: #003869;
+    }
+}
+
 /* PAGINA DETAIL */
 
 .soloVerde{
@@ -164,5 +176,6 @@ p{
 }
 
 .description .caja2 p{
-    color: aliceblue;
+    color: #003869;
 }
+
