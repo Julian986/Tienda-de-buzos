@@ -113,6 +113,19 @@ p{
     width: 80%;
 }
 
+/*.fila1{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.fila1 .col-3{
+    flex: 1 1 200px;
+    max-width: 25%;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+} */
+
 /* PAGINA DETAIL */
 
 .soloVerde{
@@ -132,11 +145,24 @@ p{
     box-shadow: 3px 3px 3px 3px;
     border-style: inherit;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
 }
 
 .description h5{
     font-family: 'Courier New', Courier, monospace;
-    padding-top: 40px;
+    margin: 0;
+    padding: 0;
+  /*  justify-self: center; */
+    /*padding-top: 40px;*/
     
+}
+
+.description .caja2{
+    margin-top: 20px;
+}
+
+.description .caja2 p{
+    color: aliceblue;
 }
