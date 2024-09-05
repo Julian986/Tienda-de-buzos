@@ -206,3 +206,23 @@ p{
     color: #003869;
 }
 
+
+
+/* FOOTER */
+
+footer{
+    width: 100%;
+    height: 40vh;
+    background-color: #0C1518;
+    padding: 3%;
+}
+
+footer h3{
+    font-family: fantasy;
+    color: white;
+}
+
+.descripcionn p{
+    color: rgb(94 75 116);
+}
+
