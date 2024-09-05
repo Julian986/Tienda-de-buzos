@@ -5,11 +5,13 @@ body{
 
 ul{
     width: 30%;
-    margin-right: 15%;
+    justify-content:space-around;
+    margin: 0px auto;
 }
 form ::placeholder{
     font-weight: 500;
 }
+
 .siguiente{
     background-image: url('data:image/svg+xml,%3Csvg xmlns%3D"http://www.w3.org/2000/svg" fill%3D"%23007bff" viewBox%3D"0 0 16 16"%3E%3Cpath d%3D"M11.5 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11a.5.5 0 0 1 .5.5z"%3E%3C/path%3E%3C/svg%3E');
    
@@ -75,8 +77,9 @@ p{
     width: 20px;
     height: 20px;
     position: relative;
-    bottom: 32px;
     right: 41px;
+    top: 8px;
+    margin: 0;
  }
 
  .icono2{
@@ -85,8 +88,10 @@ p{
     /*position: relative;
     bottom: 31px;
     left: 39px;*/
-    margin-top: 0px;
-    margin-right: 9px;
+    margin-top: -1px;
+    margin-right: 0px;
+    position: relative;
+    right: 15px;
  }
 
  .menuNavegacion{
@@ -110,7 +115,20 @@ p{
 }
 
 .tarjeta a{
-    width: 80%;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+}
+
+.btn{
+    background-color: #198654;
+}
+
+.btn:hover{
+    color: white;
+    background-color: #16a764;
 }
 
 /*.fila1{
@@ -131,10 +149,19 @@ p{
 @media screen and (max-width:988px) {
     .menuNavegacion{
         height: auto;
-        padding: 20px;
     }
-    body{
-        background-color: #003869;
+    ul{
+        display: block;
+        margin: 0;
+    }
+    form{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:480px){
+    form{
+        width: 80%;
     }
 }
 
