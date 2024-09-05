@@ -3,13 +3,33 @@ body{
     
 }
 
+/* MENU DE NAVEGACION */
+
 ul{
     width: 30%;
     justify-content:space-around;
     margin: 0px auto;
 }
+
+.navbar-nav .nav-item .nav-link {
+    color: white;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: grey;
+}
+
+
+.menuNavegacion{
+    height: 88px;
+}
+
 form ::placeholder{
     font-weight: 500;
+}
+
+form input[type='text']{
+    padding-right: 42px;
 }
 
 .siguiente{
@@ -29,6 +49,8 @@ img{
 .negro{
     margin-right: 130px;
 }
+
+/* BUZOS */
 
 h5{
     color: rgb(14 14 30);
@@ -69,9 +91,6 @@ p{
     top: -53px; /* Ajusta este valor para dar más o menos margen superior */
 }
 
-.menuNavegacion{
-    height: 200px;
-}
 
  .icono{
     width: 20px;
@@ -94,9 +113,6 @@ p{
     right: 15px;
  }
 
- .menuNavegacion{
-    height: 88px;
- }
 
  .buzoRojo{
     width: 100%;
