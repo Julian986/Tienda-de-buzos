@@ -242,3 +242,32 @@ footer h3{
     color: rgb(94 75 116);
 }
 
+.descripcionn i{
+    font-size: 30px;
+    padding: 10px;
+}
+
+.fa-twitter{
+    color: #1DA1F2;
+    cursor: pointer;
+}
+
+.fa-instagram{
+    color: #E1306C;
+    cursor: pointer;
+}
+
+.fa-youtube{
+    color:#FF0000;
+    cursor: pointer;
+}
+
+.fa-facebook{
+    color:#1877F2;
+    cursor: pointer;
+}
+
+.fa-snapchat{
+    color:#FFFC00;
+    cursor: pointer;
+}
