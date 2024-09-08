@@ -123,6 +123,7 @@ p{
 
  .tarjeta{
     background-color: #F0F0F0;
+    margin: 5px 0px;
 }
 
 .tarjeta:hover{
@@ -234,12 +235,13 @@ footer{
 }
 
 footer h3{
-    font-family: fantasy;
+    /*font-family: fantasy;*/
     color: white;
 }
 
 .descripcionn p{
-    color: rgb(94 75 116);
+   /* color: rgb(94 75 116); */
+   color: #838383;
 }
 
 .descripcionn i{
@@ -270,4 +272,25 @@ footer h3{
 .fa-snapchat{
     color:#FFFC00;
     cursor: pointer;
+}
+
+
+
+iframe{
+    /*margin-left: 173px;*/
+    margin-bottom: -29px;
+    height: 303px;
+}
+
+.caja{
+    display: inline-block;
+}
+
+.caja h4{
+    color: white;
+}
+
+.caja p{
+    /*color: #8F9FA3;*/
+    color:#838383;
 }

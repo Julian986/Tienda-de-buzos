@@ -1,11 +1,15 @@
 
+    Generales
+    . Dar la opcion de osucro o claro
+    
     - HEADER
     . mover un poco a la izquierda el input text
 
 
     - BODY
     . Arreglar carrousel
-    . Darle margenes arriba y abajao a las cartas cuando se vuelven responsivas
+    . Darle margenes arriba y abajao a las cartas cuando se vuelven responsivas ✔️
+
     
    
 
