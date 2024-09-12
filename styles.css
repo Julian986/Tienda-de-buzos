@@ -229,7 +229,6 @@ p{
 
 footer{
     width: 100%;
-    height: 40vh;
     background-color: #0C1518;
     padding: 3%;
 }
@@ -275,12 +274,18 @@ footer h3{
 }
 
 
-
 iframe{
     /*margin-left: 173px;*/
     margin-bottom: -29px;
-    height: 303px;
+    height: 100%;
+    width: 100%;
 }
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+}
+
 
 .caja{
     display: inline-block;
@@ -293,4 +298,8 @@ iframe{
 .caja p{
     /*color: #8F9FA3;*/
     color:#838383;
+}
+
+.container-fluid .row div{
+    margin: 10px 0;
 }
