@@ -7,7 +7,7 @@
 
 
     - BODY
-    . Arreglar carrousel
+    . Arreglar carrousel: Las imagenes tienen margenes, sacarselos.
     . Darle margenes arriba y abajao a las cartas cuando se vuelven responsivas ✔️
 
     
