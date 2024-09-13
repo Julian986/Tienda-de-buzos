@@ -121,9 +121,15 @@ p{
 
 /*  BUZOS   */
 
+.colBuzo{
+    margin: 12px 0px;
+}
+
  .tarjeta{
     background-color: #F0F0F0;
     margin: 5px 0px;
+    height: 100%;
+    position: relative;
 }
 
 .tarjeta:hover{
@@ -137,7 +143,10 @@ p{
     font-weight: 500;
     font-style: normal;
     color: white;
+/*     position: absolute;
+ */    bottom: 5px;
 }
+
 
 .btn{
     background-color: #198654;
@@ -243,7 +252,7 @@ footer h3{
    color: #838383;
 }
 
-.descripcionn i{
+.icons i{
     font-size: 30px;
     padding: 10px;
 }
