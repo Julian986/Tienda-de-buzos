@@ -143,8 +143,8 @@ p{
     font-weight: 500;
     font-style: normal;
     color: white;
-/*     position: absolute;
- */    bottom: 5px;
+/*      position: absolute;
+     bottom: 5px; */
 }
 
 
@@ -171,6 +171,13 @@ p{
 } */
 
 /* MEDIA QUERIES */
+
+@media screen and (max-width:991px) {
+    .carrouselDeBuzos h5,
+    .carrouselDeBuzos p {
+        display: none;
+    }
+}
 
 @media screen and (max-width:988px) {
     .menuNavegacion{
