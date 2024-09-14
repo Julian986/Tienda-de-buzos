@@ -6,7 +6,9 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
-        </style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Squada+One&display=swap');
+    </style>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <title>Tienda de buzos</title>
 </head>
@@ -19,38 +21,41 @@
             <div class="container-fluid">
                 <a href="index.html" class="navbar-brand">Dragon</a>
                   <!-- Boton para el menu movil -->
-                  <button 
+              
+               <button 
                   class="navbar-toggler"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#menu"
                   aria-controls="menu"
                   aria-expanded="false"
-                  aria-label="Mostrar / Ocultar Menu"
+                  aria-label="Mostrar/Ocultar Menu"
               >
                   <span class="navbar-toggler-icon"></span>
               </button>
 
-              <div class="collapse navbar-collapse ola d-flex justify-content-center" id="menu">
-                <ul class="navbar-nav mb-2 mb-lg-0 d-flex justify-content-around"> 
-                    <li class="nav-item"><a href="" class="nav-link itemss" style="color: white;">Inicio</a></li>
-                    <li class="nav-item"><a href="" class="nav-link itemss" style="color: white;">About</a></li>
-                    <li class="nav-item"><a href="" class="nav-link itemss" style="color: white;">Shop</a></li>
-                    <li class="nav-item"><a href="" class="nav-link itemss" style="color: white;">Contacto</a></li>
+              <div class="collapse navbar-collapse ola" id="menu">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0"> 
+                    <li class="nav-item"><a href="" class="nav-link itemss">Inicio</a></li>
+                    <li class="nav-item"><a href="" class="nav-link itemss">About</a></li>
+                    <li class="nav-item"><a href="" class="nav-link itemss">Shop</a></li>
+                    <li class="nav-item"><a href="" class="nav-link itemss">Contacto</a></li>
                 </ul>
                       <!-- Formulario de busqueda -->
-                      <form action="" class="d-flex h-50 w-25 justify-content-lg-start">
-                        <input 
+                      <form action="" class="d-flex h-50 justify-content-lg-start">
+                      <!--   <div class="input-container flex-fill"> -->
+                            <input 
                             type="text"
                             class="form-control me-2 flex-fill"
                             aria-label="Buscar"
                             placeholder="Buscar"
-                        >
-                    </form>        
-                    <img class="icono" src="icons/lupa.svg" alt="">
+                            >
+                            <img class="icono" src="icons/lupa.svg" alt="">
+                       <!--  </div> -->
+                        </form>        
               </div>
             </div>
-        </nav>
+        </nav> 
     </div>
 
    <div class="row mt-5 mb-5">
@@ -68,11 +73,20 @@
             <div class="description">
                 <h5>Nike Sportswear Club Fleece</h5>
                 <div class="caja2">
-                    <p>Talle: large</p>
-                    <p>Precio: $500 usd</p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi perspiciatis omnis sunt.</p>
+                    <h5>$500 usd</h5>
+                    <h6>Acerca del producto</h6>
+                    <p>Fabricado con un tejido suave y transpirable, este buzo tiene un tono verde esmeralda vibrante que evoca frescura y naturaleza</p>
+                    <h6>Talle: </h6> <a href="" class="btn">XS</a> <a href="" class="btn">SM</a> <a href="" class="btn">MD</a> <a href="" class="btn">LG</a> <a href="" class="btn">XL</a> <a href="" class="btn">XXL</a>
+                    <h6>Metodos de pago: </h6>
+                    <div class="caja2Iconos">
+                    <i class="fa-brands fa-cc-visa" style="color: #1A73E8;"></i>
+                    <i class="fa-brands fa-cc-mastercard" style="color: #EB001B;"></i>
+                    <i class="fa-brands fa-cc-stripe" style="color: #6772E5;"></i>
+                    <i class="fa-brands fa-cc-paypal" style="color: #003087;"></i>
+                    <i class="fa-brands fa-cc-apple-pay" style="color: #000000;"></i>
+                    </div>
                 </div>
-
+                    <a href="" class="btn comprar">Comprar</a>
             </div>
         </div>
    </div>
