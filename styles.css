@@ -30,6 +30,8 @@ form ::placeholder{
 
 form input[type='text']{
     padding-right: 42px;
+    position: relative;
+    right: 7px;
 }
 
 .siguiente{
@@ -47,15 +49,15 @@ img{
 }
 
 .negro{
-    margin-right: 130px;
-}
+/*  */}
 
 /* BUZOS */
 
 h5{
     color: rgb(14 14 30);
   font-family: "Lexend Deca", sans-serif;
-  font-optical-sizing: auto;
+  font-optical-sizing: auto;    margin-right: 130px;
+
   font-weight: weight;
   font-style: normal;
   
@@ -121,15 +123,13 @@ p{
 
 /*  BUZOS   */
 
-.colBuzo{
-    margin: 12px 0px;
+.colMargen{
+    margin: 7px 0px;
 }
 
  .tarjeta{
     background-color: #F0F0F0;
-    margin: 5px 0px;
     height: 100%;
-    position: relative;
 }
 
 .tarjeta:hover{
