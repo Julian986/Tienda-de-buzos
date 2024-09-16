@@ -60,28 +60,28 @@
       "nombre": "Buzo Nike Juve",
       "precio": "$489 usd",
       "descripcion": "Fabricado con un tejido suave y transpirable, este buzo tiene un tono verde esmeralda vibrante que evoca frescura y naturaleza",
-      "imagen": "img/buzo9.png"
+      "imagen": "img/buzo-blanco.png"
     },
     {
       "id": 10,
       "nombre": "Adidas Juve TK Suit",
       "precio": "$612 usd",
       "descripcion": "Fabricado con un tejido suave y transpirable, este buzo tiene un tono verde esmeralda vibrante que evoca frescura y naturaleza",
-      "imagen": "img/buzo10.png"
+      "imagen": "img/buzo-negro.png"
     },
     {
       "id": 11,
       "nombre": "Essentials 3-Stripes",
       "precio": "$490 usd",
       "descripcion": "Fabricado con un tejido suave y transpirable, este buzo tiene un tono verde esmeralda vibrante que evoca frescura y naturaleza",
-      "imagen": "img/buzo11.png"
+      "imagen": "img/buzo-rojo.png"
     },
     {
       "id": 12,
       "nombre": "Baseball Tricot Suit",
       "precio": "$540 usd",
       "descripcion": "Fabricado con un tejido suave y transpirable, este buzo tiene un tono verde esmeralda vibrante que evoca frescura y naturaleza",
-      "imagen": "img/buzo12.png"
+      "imagen": "img/buzo-con-capucha.png"
     }
   ]
   
