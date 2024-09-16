@@ -255,6 +255,7 @@ p{
 .description .caja2 i{
     font-size: 42px;
     margin: 0px 6px;
+    cursor: pointer;
 }
 
 .description .caja2 .caja2Iconos{

@@ -1,0 +1,87 @@
+[
+    {
+      "id": 1,
+      "nombre": "Nike Sportswear Club",
+      "precio": "$500 usd",
+      "descripcion": "Fabricado con un tejido suave y transpirable, este buzo tiene un tono verde esmeralda vibrante que evoca frescura y naturaleza",
+      "imagen": "img/buzo1.png"
+    },
+    {
+      "id": 2,
+      "nombre": "Nike Dri-FIT Academy",
+      "precio": "$480 usd",
+      "descripcion": "Fabricado con un tejido suave y transpirable, este buzo tiene un tono verde esmeralda vibrante que evoca frescura y naturaleza",
+      "imagen": "img/buzo2.png"
+    },
+    {
+      "id": 3,
+      "nombre": "Therma-FIT Repel",
+      "precio": "$600 usd",
+      "descripcion": "Fabricado con un tejido suave y transpirable, este buzo tiene un tono verde esmeralda vibrante que evoca frescura y naturaleza",
+      "imagen": "img/buzo3.png"
+    },
+    {
+      "id": 4,
+      "nombre": "Puma Teamrise",
+      "precio": "$380 usd",
+      "descripcion": "Fabricado con un tejido suave y transpirable, este buzo tiene un tono verde esmeralda vibrante que evoca frescura y naturaleza",
+      "imagen": "img/buzo4.png"
+    },
+    {
+      "id": 5,
+      "nombre": "Nike Dry Graphic",
+      "precio": "$610 usd",
+      "descripcion": "Fabricado con un tejido suave y transpirable, este buzo tiene un tono verde esmeralda vibrante que evoca frescura y naturaleza",
+      "imagen": "img/buzo5.png"
+    },
+    {
+      "id": 6,
+      "nombre": "Nike Club",
+      "precio": "$525 usd",
+      "descripcion": "Fabricado con un tejido suave y transpirable, este buzo tiene un tono verde esmeralda vibrante que evoca frescura y naturaleza",
+      "imagen": "img/buzo6.png"
+    },
+    {
+      "id": 7,
+      "nombre": "Puma Baseball Tricot",
+      "precio": "$470 usd",
+      "descripcion": "Fabricado con un tejido suave y transpirable, este buzo tiene un tono verde esmeralda vibrante que evoca frescura y naturaleza",
+      "imagen": "img/buzo7.png"
+    },
+    {
+      "id": 8,
+      "nombre": "Nike ACG Therma-FIT",
+      "precio": "$500 usd",
+      "descripcion": "Fabricado con un tejido suave y transpirable, este buzo tiene un tono verde esmeralda vibrante que evoca frescura y naturaleza",
+      "imagen": "img/buzo8.png"
+    },
+    {
+      "id": 9,
+      "nombre": "Buzo Nike Juve",
+      "precio": "$489 usd",
+      "descripcion": "Fabricado con un tejido suave y transpirable, este buzo tiene un tono verde esmeralda vibrante que evoca frescura y naturaleza",
+      "imagen": "img/buzo9.png"
+    },
+    {
+      "id": 10,
+      "nombre": "Adidas Juve TK Suit",
+      "precio": "$612 usd",
+      "descripcion": "Fabricado con un tejido suave y transpirable, este buzo tiene un tono verde esmeralda vibrante que evoca frescura y naturaleza",
+      "imagen": "img/buzo10.png"
+    },
+    {
+      "id": 11,
+      "nombre": "Essentials 3-Stripes",
+      "precio": "$490 usd",
+      "descripcion": "Fabricado con un tejido suave y transpirable, este buzo tiene un tono verde esmeralda vibrante que evoca frescura y naturaleza",
+      "imagen": "img/buzo11.png"
+    },
+    {
+      "id": 12,
+      "nombre": "Baseball Tricot Suit",
+      "precio": "$540 usd",
+      "descripcion": "Fabricado con un tejido suave y transpirable, este buzo tiene un tono verde esmeralda vibrante que evoca frescura y naturaleza",
+      "imagen": "img/buzo12.png"
+    }
+  ]
+  
